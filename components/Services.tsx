@@ -11,7 +11,6 @@ const useStyles = createStyles((theme) => ({
     [theme.fn.smallerThan('sm')]: {
       flexDirection: 'column',
     },
-    maxWidth: '80%',
   },
 
   title: {

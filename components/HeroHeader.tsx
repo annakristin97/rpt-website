@@ -3,7 +3,6 @@ import { PrimaryButton } from './buttons/PrimaryButton';
 
 const useStyles = createStyles((theme) => ({
   root: {
-    backgroundColor: '#152E4A',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundImage:
