@@ -50,7 +50,7 @@ interface HeaderSimpleProps {
 }
 
 export function HeaderSimple({ links }: HeaderSimpleProps) {
-  const [active, setActive] = useState(links[0].link);
+  const [active, setActive] = useState('');
   const { classes, cx } = useStyles();
 
   const items = links.map((link) => (
