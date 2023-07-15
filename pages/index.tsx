@@ -18,7 +18,7 @@ export default function HomePage() {
       <HeaderSimple
         links={[
           { link: '#services', label: 'Services' },
-          { link: '#tours', label: 'Tours' },
+          { link: '#destinations', label: 'Destinations' },
           { link: '#contact', label: 'Contact Us' },
         ]}
       />
@@ -26,7 +26,7 @@ export default function HomePage() {
       <section id="services" className={classes.anchor}>
         <ServicesGrid />
       </section>
-      <section id="tours" className={classes.anchor}>
+      <section id="destinations" className={classes.anchor}>
         <Destinations />
       </section>
     </>

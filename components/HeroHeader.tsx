@@ -9,6 +9,7 @@ const useStyles = createStyles((theme) => ({
       'linear-gradient(300deg, rgba(130, 201, 30, 0), #062343, #062343), url(/ice_1.jpg)',
     paddingTop: `calc(${theme.spacing.xl} * 3)`,
     paddingBottom: `calc(${theme.spacing.xl} * 3)`,
+    marginBottom: `calc(${theme.spacing.xl} * 1)`,
   },
 
   inner: {

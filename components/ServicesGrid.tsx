@@ -58,7 +58,7 @@ export const ServicesGrid = () => {
     },
   ];
   return (
-    <Container py="xl">
+    <Container py="l">
       <Title order={2} className={classes.title} ta="center" mt="sm">
         Services
       </Title>
