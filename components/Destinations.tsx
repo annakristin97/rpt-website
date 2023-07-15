@@ -1,9 +1,9 @@
-import { Text, Center, Grid, Title, createStyles, rem, Container } from '@mantine/core';
+import { Text, Center, Grid, Title, createStyles, rem, Container, MediaQuery } from '@mantine/core';
 import { Destination } from './Destination';
 
 const useStyles = createStyles((theme) => ({
   container: {
-    marginTop: `calc(${theme.spacing.xl} * 3.0)`
+    marginTop: `calc(${theme.spacing.xl} * 3.0)`,
   },
 
   wrapper: {
@@ -111,7 +111,7 @@ export const Destinations = () => {
       <Center className={classes.wrapper}>
         <Grid justify="center">
           {destinationsData.map((destination) => (
-            <Grid.Col span={4}>
+            <Grid.Col key={'destination-' + destination.title} md={12} lg={4}>
               <Destination {...destination} />
             </Grid.Col>
           ))}
