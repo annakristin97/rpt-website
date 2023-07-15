@@ -15,9 +15,9 @@ const useStyles = createStyles((theme) => ({
 
   title: {
     color: theme.white,
-    fontSize: rem(32),
+    fontSize: rem(28),
     lineHeight: 1,
-    fontWeight: 700,
+    fontWeight: 600,
     marginBottom: theme.spacing.md,
     marginTop: theme.spacing.md,
   },

@@ -9,7 +9,7 @@ const useStyles = createStyles((theme) => ({
 
   title: {
     fontSize: rem(34),
-    fontWeight: 900,
+    fontWeight: 700,
 
     [theme.fn.smallerThan('sm')]: {
       fontSize: rem(24),

@@ -1,7 +1,10 @@
 import NextApp, { AppProps, AppContext } from 'next/app';
+import { Rubik } from 'next/font/google'
 import Head from 'next/head';
 import { MantineProvider } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
+
+const mainFont = Rubik({ subsets: ['latin'] })
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
@@ -15,6 +18,10 @@ export default function App(props: AppProps) {
 
       <MantineProvider
         theme={{
+          fontFamily: mainFont.style.fontFamily,
+          fontFamilyMonospace: 'Monaco, Courier, monospace',
+          headings: { fontFamily: mainFont.style.fontFamily },
+
           colorScheme: 'light',
           primaryShade: { light: 5, dark: 6 },
           colors: {
