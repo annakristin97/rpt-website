@@ -20,6 +20,7 @@ const useStyles = createStyles((theme) => ({
     lineHeight: 1,
     fontWeight: 700,
     marginBottom: theme.spacing.md,
+    marginTop: theme.spacing.md,
   },
 
   description: {
@@ -59,18 +60,13 @@ export function Services({ data }: ServicesProps) {
   const { classes } = useStyles();
   const stats = data.map((stat) => (
     <div key={stat.title} className={classes.stat}>
-          <Text className={classes.title} align="center">
-            {stat.title}
-          </Text>
-          <Image
-            src={stat.imgPath}
-            alt="suit_man"
-            width={100}
-            height={24}
-          />
-          <Text className={classes.description} align="center">
-            {stat.description}
-          </Text>
+      <Image src={stat.imgPath} alt="suit_man" width={150} height={42} />
+      <Text className={classes.title} align="center">
+        {stat.title}
+      </Text>
+      <Text className={classes.description} align="center">
+        {stat.description}
+      </Text>
     </div>
   ));
   return <div className={classes.root}>{stats}</div>;

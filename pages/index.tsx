@@ -1,3 +1,4 @@
+import { Destinations } from '../components/Destinations';
 import { HeroImageRight } from '../components/HeroHeader';
 import { HeaderSimple } from '../components/Navbar';
 import { ServicesGrid } from '../components/ServicesGrid';
@@ -8,6 +9,7 @@ export default function HomePage() {
       <HeaderSimple links={[{ link: '#', label: 'blabla' }]} />
       <HeroImageRight />
       <ServicesGrid />
+      <Destinations />
     </>
   );
 }

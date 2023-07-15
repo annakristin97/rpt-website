@@ -15,12 +15,12 @@ export const ServicesGrid = () => {
     const servicesData = [
         {
             title: "Private Tours",
-            description: "We offer a set of pre-planned tours that you can choose from.. We are happy to help you plan your perfect private luxury tour in Iceland and tailor-make tours to suit your individual needs and time frame.",
+            description: "We offer a set of pre-planned tours that you can choose from. We are happy to help you plan your perfect private luxury tour in Iceland and tailor-make tours to suit your individual needs and time frame.",
             imgPath: "/trip_path.svg"
         },
         {
             title: "Airport Transfer",
-            description: "Stress-free, luxury airport transfer, making sure you get where you’re going on time and in style.",
+            description: "Stress-free, luxury airport transfer, making sure you get to where you’re going on time and in style.",
             imgPath: "/airplane.svg"
 
         },
