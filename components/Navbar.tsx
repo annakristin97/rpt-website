@@ -107,7 +107,7 @@ export function Navbar({ links }: HeaderResponsiveProps) {
   ));
 
   return (
-    <Header height={HEADER_HEIGHT} mb={120} className={classes.root}>
+    <Header height={HEADER_HEIGHT} className={classes.root}>
       <Container className={classes.header}>
         <LogoWithText />
         <Group spacing={5} className={classes.links}>

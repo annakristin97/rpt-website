@@ -3,6 +3,7 @@ import { Destinations } from '../components/Destinations';
 import { HeroImageRight } from '../components/HeroHeader';
 import { Navbar } from '../components/Navbar';
 import { ServicesGrid } from '../components/ServicesGrid';
+import { Footer } from '../components/Footer';
 
 const useStyles = createStyles((theme) => ({
   anchor: {
@@ -30,6 +31,7 @@ export default function HomePage() {
       <section id="destinations" className={classes.anchor}>
         <Destinations />
       </section>
+      <Footer />
     </>
   );
 }
