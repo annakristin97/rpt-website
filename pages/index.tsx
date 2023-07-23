@@ -1,12 +1,13 @@
 import { createStyles, rem } from '@mantine/core';
 import { Destinations } from '../components/Destinations';
 import { HeroImageRight } from '../components/HeroHeader';
-import { HeaderSimple } from '../components/Navbar';
+import { Navbar } from '../components/Navbar';
 import { ServicesGrid } from '../components/ServicesGrid';
 
 const useStyles = createStyles((theme) => ({
   anchor: {
-    scrollMarginTop: rem(56),
+    scrollMarginTop: rem(60),
+    scrollBehavior:'smooth'
   },
 
 }));
@@ -15,7 +16,7 @@ export default function HomePage() {
   const { classes } = useStyles();
   return (
     <>
-      <HeaderSimple
+      <Navbar
         links={[
           { link: '#services', label: 'Services' },
           { link: '#destinations', label: 'Destinations' },

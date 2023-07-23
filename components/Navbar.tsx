@@ -1,23 +1,56 @@
 import { useState } from 'react';
-import { createStyles, Header, Container, Group, rem } from '@mantine/core';
+import {
+  createStyles,
+  Header,
+  Container,
+  Group,
+  Burger,
+  Paper,
+  Transition,
+  rem,
+} from '@mantine/core';
+import { useDisclosure } from '@mantine/hooks';
 import { LogoWithText } from './LogoWithText';
 
+const HEADER_HEIGHT = rem(60);
+
 const useStyles = createStyles((theme) => ({
-  header: {
-    backgroundColor: theme.colors.white[0],
-    borderBottom: 0,
+  root: {
     position: 'sticky',
+    zIndex: 1,
   },
 
-  inner: {
-    height: rem(56),
+  dropdown: {
+    position: 'absolute',
+    top: HEADER_HEIGHT,
+    left: 0,
+    right: 0,
+    zIndex: 0,
+    borderTopRightRadius: 0,
+    borderTopLeftRadius: 0,
+    borderTopWidth: 0,
+    overflow: 'hidden',
+
+    [theme.fn.largerThan('sm')]: {
+      display: 'none',
+    },
+  },
+
+  header: {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
+    height: '100%',
   },
 
   links: {
-    [theme.fn.smallerThan('xs')]: {
+    [theme.fn.smallerThan('sm')]: {
+      display: 'none',
+    },
+  },
+
+  burger: {
+    [theme.fn.largerThan('sm')]: {
       display: 'none',
     },
   },
@@ -28,29 +61,35 @@ const useStyles = createStyles((theme) => ({
     padding: `${rem(8)} ${rem(12)}`,
     borderRadius: theme.radius.sm,
     textDecoration: 'none',
-    color: theme.black,
+    color: theme.colors.green[0],
     fontSize: theme.fontSizes.sm,
     fontWeight: 500,
 
     '&:hover': {
-      backgroundColor: theme.colors.gray[0],
+      backgroundColor: theme.colors.lightBlue[0],
+    },
+
+    [theme.fn.smallerThan('sm')]: {
+      borderRadius: 0,
+      padding: theme.spacing.md,
     },
   },
 
   linkActive: {
     '&, &:hover': {
-      backgroundColor: theme.colors.green[0],
+      backgroundColor: theme.colors.yellow[0],
       color: theme.colors.white[0],
     },
   },
 }));
 
-interface HeaderSimpleProps {
+interface HeaderResponsiveProps {
   links: { link: string; label: string }[];
 }
 
-export function HeaderSimple({ links }: HeaderSimpleProps) {
-  const [active, setActive] = useState('');
+export function Navbar({ links }: HeaderResponsiveProps) {
+  const [opened, { toggle, close }] = useDisclosure(false);
+  const [active, setActive] = useState(links[0].link);
   const { classes, cx } = useStyles();
 
   const items = links.map((link) => (
@@ -58,8 +97,9 @@ export function HeaderSimple({ links }: HeaderSimpleProps) {
       key={link.label}
       href={link.link}
       className={cx(classes.link, { [classes.linkActive]: active === link.link })}
-      onClick={(event) => {
+      onClick={(_) => {
         setActive(link.link);
+        close();
       }}
     >
       {link.label}
@@ -67,14 +107,22 @@ export function HeaderSimple({ links }: HeaderSimpleProps) {
   ));
 
   return (
-    <Header height={60} className={classes.header}>
-      <Container>
-        <div className={classes.inner}>
-          <LogoWithText />
-          <Group spacing={5} className={classes.links}>
-            {items}
-          </Group>
-        </div>
+    <Header height={HEADER_HEIGHT} mb={120} className={classes.root}>
+      <Container className={classes.header}>
+        <LogoWithText />
+        <Group spacing={5} className={classes.links}>
+          {items}
+        </Group>
+
+        <Burger opened={opened} onClick={toggle} className={classes.burger} size="sm" />
+
+        <Transition transition="pop-top-right" duration={200} mounted={opened}>
+          {(styles) => (
+            <Paper className={classes.dropdown} withBorder style={styles}>
+              {items}
+            </Paper>
+          )}
+        </Transition>
       </Container>
     </Header>
   );
