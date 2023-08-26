@@ -62,7 +62,11 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-export function HeroImageRight() {
+interface HeroImageRightProps {
+    setActiveLink: Function;
+  }
+
+export function HeroImageRight( {setActiveLink}: HeroImageRightProps ) {
   const { classes } = useStyles();
   return (
     <div className={classes.root}>
@@ -93,7 +97,7 @@ export function HeroImageRight() {
               </Text>{' '}  
             </Text>
 
-            <PrimaryButton content='Contact Us' />
+            <PrimaryButton content='Contact Us' href='#contact' onLinkClick={setActiveLink}/>
           </div>
         </div>
       </Container>

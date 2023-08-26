@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   createStyles,
   Header,
@@ -11,6 +11,7 @@ import {
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { LogoWithText } from './LogoWithText';
+import Link from 'next/link';
 
 const HEADER_HEIGHT = rem(60);
 
@@ -85,20 +86,21 @@ const useStyles = createStyles((theme) => ({
 
 interface HeaderResponsiveProps {
   links: { link: string; label: string }[];
+  setActiveLink: Function;
+  activeLink?: string;
 }
 
-export function Navbar({ links }: HeaderResponsiveProps) {
+export function Navbar({ links, setActiveLink, activeLink }: HeaderResponsiveProps) {
   const [opened, { toggle, close }] = useDisclosure(false);
-  const [active, setActive] = useState(links[0].link);
   const { classes, cx } = useStyles();
 
   const items = links.map((link) => (
     <a
       key={link.label}
       href={link.link}
-      className={cx(classes.link, { [classes.linkActive]: active === link.link })}
+      className={cx(classes.link, { [classes.linkActive]: activeLink === link.link })}
       onClick={(_) => {
-        setActive(link.link);
+        setActiveLink(link.link);
         close();
       }}
     >
@@ -109,7 +111,9 @@ export function Navbar({ links }: HeaderResponsiveProps) {
   return (
     <Header height={HEADER_HEIGHT} className={classes.root}>
       <Container className={classes.header}>
-        <LogoWithText />
+        <Link href="">
+          <LogoWithText />
+        </Link>
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>

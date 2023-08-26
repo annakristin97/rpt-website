@@ -2,11 +2,9 @@ import { createStyles, Text, Container, ActionIcon, Group, rem, Image } from '@m
 import { IconBrandFacebook, IconBrandInstagram } from '@tabler/icons-react';
 
 import { LogoWithText } from './LogoWithText';
-import FerdamalaStofa from '../public/ferdamalastofa.png.webp';
 
 const useStyles = createStyles((theme) => ({
   footer: {
-    marginTop: rem(120),
     paddingTop: `calc(${theme.spacing.xl} * 2)`,
     paddingBottom: `calc(${theme.spacing.xl} * 2)`,
     backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],

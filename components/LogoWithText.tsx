@@ -13,8 +13,8 @@ export const LogoWithText = () => (
         x2="80"
         y2="131"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="75"
@@ -22,8 +22,8 @@ export const LogoWithText = () => (
         x2="85"
         y2="54.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="74"
@@ -31,8 +31,8 @@ export const LogoWithText = () => (
         x2="86"
         y2="38.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="74.5"
@@ -40,8 +40,8 @@ export const LogoWithText = () => (
         x2="85.5"
         y2="46.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="85"
@@ -49,8 +49,8 @@ export const LogoWithText = () => (
         x2="75"
         y2="92.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="86"
@@ -58,8 +58,8 @@ export const LogoWithText = () => (
         x2="74"
         y2="108.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="85.5"
@@ -67,20 +67,20 @@ export const LogoWithText = () => (
         x2="74.5"
         y2="100.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M90.5 15C90.5 30.0084 69.5 30 69.5 15"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <path
         d="M69.5 131.253C69.5 116.245 90.5 116.253 90.5 131.253"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="80"
@@ -88,8 +88,8 @@ export const LogoWithText = () => (
         x2="80"
         y2="131"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="75"
@@ -97,8 +97,8 @@ export const LogoWithText = () => (
         x2="85"
         y2="54.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="74"
@@ -106,8 +106,8 @@ export const LogoWithText = () => (
         x2="86"
         y2="38.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="74.5"
@@ -115,8 +115,8 @@ export const LogoWithText = () => (
         x2="85.5"
         y2="46.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="85"
@@ -124,8 +124,8 @@ export const LogoWithText = () => (
         x2="75"
         y2="92.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="86"
@@ -133,8 +133,8 @@ export const LogoWithText = () => (
         x2="74"
         y2="108.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="85.5"
@@ -142,20 +142,20 @@ export const LogoWithText = () => (
         x2="74.5"
         y2="100.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M90.5 15C90.5 30.0084 69.5 30 69.5 15"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <path
         d="M69.5 131.253C69.5 116.245 90.5 116.253 90.5 131.253"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="38.9878"
@@ -163,8 +163,8 @@ export const LogoWithText = () => (
         x2="121.012"
         y2="114.012"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="63.383"
@@ -172,8 +172,8 @@ export const LogoWithText = () => (
         x2="70.4541"
         y2="56.383"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="51.3622"
@@ -181,8 +181,8 @@ export const LogoWithText = () => (
         x2="59.8475"
         y2="44.3622"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="57.3726"
@@ -190,8 +190,8 @@ export const LogoWithText = () => (
         x2="65.1508"
         y2="50.3726"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="97.3241"
@@ -199,8 +199,8 @@ export const LogoWithText = () => (
         x2="90.2531"
         y2="90.3241"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="109.345"
@@ -208,8 +208,8 @@ export const LogoWithText = () => (
         x2="100.86"
         y2="102.345"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="103.335"
@@ -217,20 +217,20 @@ export const LogoWithText = () => (
         x2="95.5564"
         y2="96.3345"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M46.4124 24.5632C57.0249 35.1757 42.1698 50.019 31.5632 39.4124"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <path
         d="M113.767 121.616C103.154 111.003 118.009 96.16 128.616 106.767"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="38.9878"
@@ -238,8 +238,8 @@ export const LogoWithText = () => (
         x2="121.012"
         y2="114.012"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="63.383"
@@ -247,8 +247,8 @@ export const LogoWithText = () => (
         x2="70.4541"
         y2="56.383"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="51.3622"
@@ -256,8 +256,8 @@ export const LogoWithText = () => (
         x2="59.8475"
         y2="44.3622"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="57.3726"
@@ -265,8 +265,8 @@ export const LogoWithText = () => (
         x2="65.1508"
         y2="50.3726"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="97.3241"
@@ -274,8 +274,8 @@ export const LogoWithText = () => (
         x2="90.2531"
         y2="90.3241"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="109.345"
@@ -283,8 +283,8 @@ export const LogoWithText = () => (
         x2="100.86"
         y2="102.345"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="103.335"
@@ -292,20 +292,20 @@ export const LogoWithText = () => (
         x2="95.5564"
         y2="96.3345"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M46.4124 24.5632C57.0249 35.1757 42.1698 50.019 31.5632 39.4124"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <path
         d="M113.767 121.616C103.154 111.003 118.009 96.16 128.616 106.767"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="121.012"
@@ -313,8 +313,8 @@ export const LogoWithText = () => (
         x2="38.9878"
         y2="114.012"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="89.546"
@@ -322,8 +322,8 @@ export const LogoWithText = () => (
         x2="96.617"
         y2="63.4541"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="100.153"
@@ -331,8 +331,8 @@ export const LogoWithText = () => (
         x2="108.638"
         y2="52.8475"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="94.8493"
@@ -340,8 +340,8 @@ export const LogoWithText = () => (
         x2="102.627"
         y2="58.1508"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="69.747"
@@ -349,8 +349,8 @@ export const LogoWithText = () => (
         x2="62.6759"
         y2="83.2531"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="59.1404"
@@ -358,8 +358,8 @@ export const LogoWithText = () => (
         x2="50.6551"
         y2="93.8596"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="64.4437"
@@ -367,20 +367,20 @@ export const LogoWithText = () => (
         x2="56.6655"
         y2="88.5564"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M128.437 39.4124C117.824 50.0249 102.981 35.1698 113.588 24.5632"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <path
         d="M31.3842 106.767C41.9967 96.1541 56.84 111.009 46.2334 121.616"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="121.012"
@@ -388,8 +388,8 @@ export const LogoWithText = () => (
         x2="38.9878"
         y2="114.012"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="89.546"
@@ -397,8 +397,8 @@ export const LogoWithText = () => (
         x2="96.617"
         y2="63.4541"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="100.153"
@@ -406,8 +406,8 @@ export const LogoWithText = () => (
         x2="108.638"
         y2="52.8475"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="94.8493"
@@ -415,8 +415,8 @@ export const LogoWithText = () => (
         x2="102.627"
         y2="58.1508"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="69.747"
@@ -424,8 +424,8 @@ export const LogoWithText = () => (
         x2="62.6759"
         y2="83.2531"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="59.1404"
@@ -433,8 +433,8 @@ export const LogoWithText = () => (
         x2="50.6551"
         y2="93.8596"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="64.4437"
@@ -442,20 +442,20 @@ export const LogoWithText = () => (
         x2="56.6655"
         y2="88.5564"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M128.437 39.4124C117.824 50.0249 102.981 35.1698 113.588 24.5632"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <path
         d="M31.3842 106.767C41.9967 96.1541 56.84 111.009 46.2334 121.616"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="22"
@@ -463,8 +463,8 @@ export const LogoWithText = () => (
         x2="138"
         y2="73"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="61.5"
@@ -472,8 +472,8 @@ export const LogoWithText = () => (
         x2="61.5"
         y2="68"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="45.5"
@@ -481,8 +481,8 @@ export const LogoWithText = () => (
         x2="45.5"
         y2="67"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="53.5"
@@ -490,8 +490,8 @@ export const LogoWithText = () => (
         x2="53.5"
         y2="67.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="99.5"
@@ -499,8 +499,8 @@ export const LogoWithText = () => (
         x2="99.5"
         y2="78"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="115.5"
@@ -508,8 +508,8 @@ export const LogoWithText = () => (
         x2="115.5"
         y2="79"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="107.5"
@@ -517,20 +517,20 @@ export const LogoWithText = () => (
         x2="107.5"
         y2="78.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M22 62.5C37.0084 62.5 37 83.5 22 83.5"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <path
         d="M138.253 83.5C123.245 83.5 123.253 62.5 138.253 62.5"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="22"
@@ -538,8 +538,8 @@ export const LogoWithText = () => (
         x2="138"
         y2="73"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <line
         x1="61.5"
@@ -547,8 +547,8 @@ export const LogoWithText = () => (
         x2="61.5"
         y2="68"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="45.5"
@@ -556,8 +556,8 @@ export const LogoWithText = () => (
         x2="45.5"
         y2="67"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="53.5"
@@ -565,8 +565,8 @@ export const LogoWithText = () => (
         x2="53.5"
         y2="67.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="99.5"
@@ -574,8 +574,8 @@ export const LogoWithText = () => (
         x2="99.5"
         y2="78"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="115.5"
@@ -583,8 +583,8 @@ export const LogoWithText = () => (
         x2="115.5"
         y2="79"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <line
         x1="107.5"
@@ -592,22 +592,22 @@ export const LogoWithText = () => (
         x2="107.5"
         y2="78.5"
         stroke="#AE7C54"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M22 62.5C37.0084 62.5 37 83.5 22 83.5"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
       <path
         d="M138.253 83.5C123.245 83.5 123.253 62.5 138.253 62.5"
         stroke="#AE7C54"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       />
-      <circle cx="80" cy="73" r="9" stroke="#AE7C54" stroke-width="2" />
+      <circle cx="80" cy="73" r="9" stroke="#AE7C54" strokeWidth="2" />
       <path
         d="M164.31 83V25.638H187.874C193.493 25.638 197.707 27.0427 200.516 29.852C203.383 32.6613 204.816 36.818 204.816 42.322C204.816 45.6473 204.128 48.6 202.752 51.18C201.376 53.76 199.455 55.7953 196.99 57.286C194.525 58.7767 191.629 59.522 188.304 59.522L190.884 57.802L207.396 83H200.086L183.058 56.684L186.154 59.866H170.502V83H164.31ZM170.502 54.018H185.036C189.795 54.018 193.235 53.072 195.356 51.18C197.535 49.2307 198.624 46.4213 198.624 42.752C198.624 39.312 197.821 36.5887 196.216 34.582C194.611 32.518 191.601 31.486 187.186 31.486H170.502V54.018ZM218.564 83V25.638H254.77V31.486H224.756V51.266H251.158V57.286H224.756V77.152H254.77V83H218.564ZM283.671 83V56.684L262.257 25.638H269.739L287.885 52.47L285.907 51.954L303.709 25.638H311.191L288.831 58.146L289.863 54.19V83H283.671ZM325.437 64.682V56.598L353.301 25.638H361.213L325.437 64.682ZM319.933 83V25.638H326.125V83H319.933ZM335.069 50.664L363.191 83H354.591L330.425 54.878L335.069 50.664ZM380.587 83.688C378.351 83.688 376.287 83.43 374.395 82.914C372.503 82.3407 370.783 81.5953 369.235 80.678V74.228C370.669 75.2027 372.245 76.034 373.965 76.722C375.743 77.3527 377.692 77.668 379.813 77.668C383.712 77.668 386.521 76.722 388.241 74.83C389.961 72.8807 390.821 69.7273 390.821 65.37V25.638H397.013V65.886C397.013 69.5553 396.497 72.5653 395.465 74.916C394.491 77.2093 393.201 79.0153 391.595 80.334C389.99 81.5953 388.213 82.484 386.263 83C384.371 83.4587 382.479 83.688 380.587 83.688ZM406.054 83L428.93 25.638H435.122L457.912 83H451.29L431.424 31.4L432.714 31.228L412.762 83H406.054ZM416.116 65.112L418.782 59.178H446.904L447.334 65.112H416.116ZM476.865 83L454.849 25.638H461.471L481.337 77.754H479.101L498.623 25.81L504.987 25.638L482.971 83H476.865ZM514.021 83V25.638H520.213V83H514.021ZM540.353 64.682V56.598L568.217 25.638H576.129L540.353 64.682ZM534.849 83V25.638H541.041V83H534.849ZM549.985 50.664L578.107 83H569.507L545.341 54.878L549.985 50.664Z"
         fill="#1E1E1E"

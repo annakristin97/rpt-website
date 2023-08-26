@@ -11,7 +11,11 @@ const useStyles = createStyles((theme) => ({
     },
   },
 }));
-export const PrimaryButton = (props: { content: string }) => {
+export const PrimaryButton = (props: {
+  content: string;
+  href?: string;
+  onLinkClick?: Function;
+}) => {
   const { classes } = useStyles();
   return (
     <Button
@@ -19,6 +23,11 @@ export const PrimaryButton = (props: { content: string }) => {
       color="secondaryGreen"
       size="xl"
       className={classes.control}
+      component="a"
+      href={props.href}
+      onClick={(_) => {
+        if (props.onLinkClick) props.onLinkClick(props.href);
+      }}
       mt={40}
     >
       {props.content}

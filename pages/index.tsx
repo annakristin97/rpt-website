@@ -4,6 +4,8 @@ import { HeroImageRight } from '../components/HeroHeader';
 import { Navbar } from '../components/Navbar';
 import { ServicesGrid } from '../components/ServicesGrid';
 import { Footer } from '../components/Footer';
+import { ContactForm } from '../components/ContactForm';
+import { useState } from 'react';
 
 const useStyles = createStyles((theme) => ({
   anchor: {
@@ -15,6 +17,12 @@ const useStyles = createStyles((theme) => ({
 
 export default function HomePage() {
   const { classes } = useStyles();
+  const [active, setActive] = useState<string | undefined>(undefined);
+
+  const updateActiveLink = (link?: string) => {
+    if(link) setActive(link)
+  }
+
   return (
     <>
       <Navbar
@@ -23,13 +31,18 @@ export default function HomePage() {
           { link: '#destinations', label: 'Destinations' },
           { link: '#contact', label: 'Contact Us' },
         ]}
+        setActiveLink={updateActiveLink}
+        activeLink={active}
       />
-      <HeroImageRight />
+      <HeroImageRight setActiveLink={updateActiveLink} />
       <section id="services" className={classes.anchor}>
         <ServicesGrid />
       </section>
       <section id="destinations" className={classes.anchor}>
         <Destinations />
+      </section>
+      <section id="contact" className={classes.anchor}>
+        <ContactForm />
       </section>
       <Footer />
     </>
