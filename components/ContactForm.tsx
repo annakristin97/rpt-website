@@ -42,7 +42,6 @@ const useStyles = createStyles((theme) => ({
     display: 'grid',
     gridAutoFlow: 'row',
     alignItems: 'center',
-    
   },
 
   itemIcon: {
@@ -59,7 +58,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   itemContent: {
-    color: theme.white
+    color: theme.white,
   },
 
   form: {
@@ -93,17 +92,21 @@ const data = [
     key: 'phone-number',
     title: 'Phone Number',
     content: '+354 000-0000',
-    icon: 'phone'
+    icon: 'phone',
   },
   {
     key: 'email',
     title: 'Email',
     content: 'travel@rvkcars.com',
-    icon: 'mail'
+    icon: 'mail',
   },
 ];
 
-export function ContactForm() {
+type ContactFormProps = {
+  heading?: string;
+};
+
+export function ContactForm({ heading }: ContactFormProps) {
   const { classes } = useStyles();
 
   const ContactItems = data.map((item) => (
@@ -125,15 +128,15 @@ export function ContactForm() {
     <div className={classes.wrapper}>
       <SimpleGrid cols={2} spacing={50} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
         <div>
-          <Title className={classes.title}>Contact us</Title>
+          <Title className={classes.title}>{heading ? heading : 'Contact us'}</Title>
           <Text className={classes.content} mt="sm" mb={30}>
-            Leave your email and we will get back to you within 24 hours
+            Leave your email and we will get back to you within 24 hours.
           </Text>
           <SimpleGrid
             cols={1}
             spacing={50}
             breakpoints={[{ maxWidth: 550, cols: 1, spacing: 20 }]}
-            style={{ marginTop: 30, }}
+            style={{ marginTop: 30 }}
           >
             {ContactItems}
           </SimpleGrid>

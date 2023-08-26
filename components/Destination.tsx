@@ -1,12 +1,5 @@
-import {
-  Card,
-  Image,
-  Text,
-  Group,
-  Badge,
-  createStyles,
-  rem,
-} from '@mantine/core';
+import { Card, Image, Text, Group, Badge, createStyles, rem } from '@mantine/core';
+import Link from 'next/link';
 
 const useStyles = createStyles((theme) => ({
   card: {
@@ -34,53 +27,55 @@ const useStyles = createStyles((theme) => ({
 
   area: {
     color: theme.white,
-    backgroundColor: theme.colors.yellow
-  }
+    backgroundColor: theme.colors.yellow,
+  },
 }));
 
 interface DestinationProps {
-    image: string;
-    title: string;
-    area: string;
-    description: string;
-    badges: string[];
+  image: string;
+  title: string;
+  area: string;
+  description: string;
+  badges: string[];
+  id: string;
 }
 
-export function Destination({ image, title, description, area, badges }: DestinationProps) {
+export function Destination({ image, title, description, area, badges, id }: DestinationProps) {
   const { classes, theme } = useStyles();
 
   const features = badges.map((badge) => (
-    <Badge
-      color='gray'
-      key={badge}
-    >
+    <Badge color="gray" key={badge}>
       {badge}
     </Badge>
   ));
 
   return (
-    <Card withBorder radius="md" p="md" className={classes.card}>
-      <Card.Section>
-        <Image src={image} alt={title} height={180} />
-      </Card.Section>
+    <Link href={`/trips/${id}`} style={{ textDecoration: 'none' }}>
+      <Card withBorder radius="md" p="md" className={classes.card}>
+        <Card.Section>
+          <Image src={image} alt={title} height={180} />
+        </Card.Section>
 
-      <Card.Section className={classes.section} mt="md">
-        <Group position="apart">
-          <Text fz="lg" fw={500}>
-            {title}
+        <Card.Section className={classes.section} mt="md">
+          <Group position="apart">
+            <Text fz="lg" fw={500}>
+              {title}
+            </Text>
+            <Badge size="sm" className={classes.area}>
+              {area}
+            </Badge>
+          </Group>
+          <Text fz="sm" mt="xs">
+            {description}
           </Text>
-          <Badge size="sm" className={classes.area}>{area}</Badge>
-        </Group>
-        <Text fz="sm" mt="xs">
-          {description}
-        </Text>
-      </Card.Section>
+        </Card.Section>
 
-      <Card.Section className={classes.section}>
-        <Group spacing={7} mt={5}>
-          {features}
-        </Group>
-      </Card.Section>
-    </Card>
+        <Card.Section className={classes.section}>
+          <Group spacing={7} mt={5}>
+            {features}
+          </Group>
+        </Card.Section>
+      </Card>
+    </Link>
   );
 }

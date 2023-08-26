@@ -10,18 +10,17 @@ import { useState } from 'react';
 const useStyles = createStyles((theme) => ({
   anchor: {
     scrollMarginTop: rem(60),
-    scrollBehavior:'smooth'
+    scrollBehavior: 'smooth',
   },
-
 }));
 
 export default function HomePage() {
   const { classes } = useStyles();
-  const [active, setActive] = useState<string | undefined>(undefined);
+  const [active, setActive] = useState<string | undefined>(undefined);
 
   const updateActiveLink = (link?: string) => {
-    if(link) setActive(link)
-  }
+    if (link) setActive(link);
+  };
 
   return (
     <>
